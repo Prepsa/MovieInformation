@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+.outer{
+	background:url("images/stars1.jpg");
+}
+
+.container{
+	display : flex;
+	flex-wrap: wrap;
+	background: black;
+}
+
+.box{
+	display : flex;
+	flex-direction: column;
+	margin: 20px;
+	border: 5px solid white;
+}
+
+.imgBox{
+	background: yellowgreen;
+	height: 300px;
+	width:200px;
+	margin: 10px;
+}
+
+#movie_img{
+	height: 300px;
+	width:200px;
+}
+
+#user_img{
+	height: 250px;
+	width:250px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto
+}
+
+.infoBox{
+	margin: 10px;
+}
